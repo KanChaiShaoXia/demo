@@ -3,7 +3,7 @@ import { assign, values } from "lodash-es";
 import { v4 } from "uuid";
 import { ObservableBlockMap, createObservableBlock } from "./rx-store";
 
-const arr = [...new Array(200)];
+const arr = [...new Array(50000)];
 
 export interface BlockDTO {
   id: string;
